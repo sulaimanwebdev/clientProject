@@ -5,7 +5,7 @@
 .footerC{
     max-width: 1170px;
 }
-form{
+.footerC form{
    
     display: flex;
     align-items: center;
@@ -20,7 +20,7 @@ form{
 }
 
 
-form input {
+.footerC form input {
     height: 100%;
     width: 100%;
     margin-top: 1px;
@@ -29,7 +29,7 @@ form input {
 
 }
 
-form button{
+.footerC form button{
     height: 100%;
     background-color: #3bb3c5;
     color: white;
@@ -43,7 +43,7 @@ form button{
 }
 
 
-form i{
+.footerC form i{
     font-size: 25px;
      margin: 0 20px;
 }
