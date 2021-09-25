@@ -1,0 +1,327 @@
+
+
+.blogP{
+    
+    height: 550px;
+    position:absolute;
+    top: 0;
+    width: 100%;
+    left: 0;
+    z-index: -3;
+    
+}
+
+.background{
+    position: absolute;
+    top: 0;
+    left: 0%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* article */
+
+.articleC{
+    padding: 40px 50px;
+    border-radius: 5px;
+    margin: 0 auto;
+    margin-top: 250px;
+    z-index: 1;
+    height: auto;
+    max-width: 1000px;
+    background-color: white;
+}
+
+
+.textLogo{
+    text-align: center;
+    color: #248594;
+    font-weight: 600;
+    font-size: 19px;
+}
+
+
+
+.articleC .title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 1.3;
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.details .date{
+    color: black;
+    font-weight: normal;
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+
+
+.views{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+
+.views i{
+    opacity: 0.7;
+}
+
+
+
+.mainContent{
+    margin-top: 30px;
+}
+
+.mainContent p{
+    font-size: 18px;
+}
+
+
+
+.underLined{
+    text-decoration: underline;
+    text-decoration-color: rgb(128, 128, 128);
+    font-weight: bold;
+    opacity: 0.7;
+}
+
+
+.mainContent ol{
+    list-style-type: none;
+    margin-top: 70px;
+}
+
+
+
+
+.mainContent ol li{
+ font-size: 28px;
+ font-weight: bold;
+ margin-bottom: 15px;
+}
+
+
+
+.newA{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    margin: 0 auto;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.mainContent ol iframe{
+    width: 100%;
+    height: 400px;
+    margin-top: 60px;
+   }
+
+
+
+
+   .mainContent hr{
+       max-width: 700px;
+       width: 100%;
+       margin: 0 auto;
+       height: 1px;
+       padding: 0;
+       background-color: rgb(233, 233, 193);
+   }
+
+   .author{
+       margin-top: 30px;
+   }
+
+   .author span{
+       font-weight: bold;
+
+   }
+
+
+   .author a{
+       font-weight: bold;
+       color: #248594;
+       text-decoration: underline;
+       text-decoration-color: #248594;
+       margin-left: 4px;
+   }
+
+
+.btnsFlex{
+    display: flex;
+align-items: flex-start;
+margin-top: 20px;
+margin-bottom: 40px;
+}
+
+.btnsFlex span{
+    font-weight: bold;
+}
+.btnsCont{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+   .btnsCont a{
+       padding: 13px 35px;
+       border-radius: 10px;
+       border: 1px solid silver;
+   }
+
+
+
+
+   .soFlex{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       gap: 20px;
+   }
+
+   .soFlex a{
+       width: 50px;
+       height: 50px;
+       border-radius: 50%;
+       border: 1px solid silver;
+       background-color: white;
+       display: flex;
+       align-items: center;
+       transition: 0.3s;
+       justify-content: center;
+
+   }
+
+
+
+   .soFlex a i{
+       font-size: 23px;
+   }
+
+
+
+
+   .soFlex a:hover{
+    
+    border: 1px solid #29a6b9;
+    background-color: #29a6b9;
+    color: white;
+
+}
+
+
+.lllast{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+    margin-top: 40px;
+}
+
+
+
+
+
+.shareStoryTitle{
+    font-weight: bold;
+    font-size: 26px;
+}
+
+
+
+
+
+
+.coloredP{
+    background-color: #FAFAFA;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+}
+
+.coloredC{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}
+
+.coloredC .soFlex{
+    display: flex;
+    align-items:flex-start;
+    justify-content: flex-start !important;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+
+
+
+
+
+.colTxt h2{
+font-weight: 600;
+}
+
+
+.name{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.name h1{
+    font-weight: bold;
+    font-size: 30px;
+    display: flex;
+}
+
+
+.name i{
+    font-size: 21px;
+    color: #37A8EE;
+}
+
+
+.colTxt{
+    max-width: 600px;
+}
