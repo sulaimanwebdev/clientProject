@@ -207,7 +207,38 @@ Developing a compelling customer experience strategy is vital in acquiring and r
 <img src="/images/blogImages/blog1.png" alt="" />
 <div className="gridDate">2021-08-9 Konabos</div>
 <div className="gridTitle">Six things to Consider when Choosing a Website Development Agency</div>
+<p>You’ll need to be diligent when looking for a professional web...</p>
 </div>
+
+
+
+
+
+<div className="grid1">
+<img src="/images/blogImages/blog2.png" alt="" />
+<div className="gridDate">2021-08-02  |  Kanabos</div>
+<div className="gridTitle">Access Context Item on Sitecore Forms using a Value Provider</div>
+<p>There are many instances where we might require knowing...</p>
+</div>
+
+
+
+
+
+
+
+<div className="grid1">
+<img src="/images/blogImages/blog3.png" alt="" />
+<div className="gridDate">2021-07-30  |  Kanabos</div>
+<div className="gridTitle">You Search Ends Here.What is the best Search provider for the Sitecore – Part I</div>
+<p>Sitecore is about websites. Ideally, great websites....</p>
+</div>
+
+
+
+
+
+
 
 
 

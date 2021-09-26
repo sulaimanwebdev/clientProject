@@ -143,6 +143,7 @@
     width: fit-content;
     margin: 0 auto;
     margin-bottom: 40px;
+    text-align: center;
     margin-top: 10px;
 }
 
@@ -324,4 +325,185 @@ font-weight: 600;
 
 .colTxt{
     max-width: 600px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.blogGridP{
+    margin-top: 100px;
+    margin-bottom: 40px;
+}
+
+
+.blogGridC{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+
+.grid1{
+    border: 1px solid silver;
+}
+
+
+.grid1:nth-child(2){
+    border-right: 0px;
+    border-left: 0px;
+
+}
+
+
+.gridTitle{
+    padding: 0 20px;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+    line-height: 1.2;
+
+}
+.gridDate{
+    padding: 0 20px;
+    font-weight: bold;
+    color: #248594;
+    margin-top: 20px;
+
+}
+.grid1 p{
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:522px){
+
+.articleC .title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 32px;
+    line-height: 1.3;
+    opacity: 0.8;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+}
+
+
+
+@media (max-width:530px){
+    .mainContent ol iframe{
+        width: 100%;
+        height: 300px;
+        margin-top: 60px;
+       }
+    
+}
+
+
+
+
+
+@media (max-width:812px){
+    .btnsFlex{
+        display: none;
+    }
+
+    .author{
+        margin-bottom: 30px;
+    }
+}
+
+
+
+
+
+
+@media (max-width:494px){
+    .colImg{
+        display: none;
+    }
+}
+
+
+
+
+
+
+
+
+
+@media (max-width:796px){
+    .colImg{
+        display: none;
+    }
+
+    
+.blogGridC{
+    max-width: 1200px;
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+}
+
+.grid1{
+    max-width: 500px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.grid1 img{
+    width: 100%;
+}
+.grid1:nth-child(2){
+    border-right: 1px solid silver;
+    border-left: 1px solid silver;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+.footerP{
+    background-color: rgb(34, 33, 33);
+    color: white !important;
+  margin-bottom: -30px;
+  padding-bottom: 20px;
+  padding-top: 60px;
+}
+
+
+
+.footerP form i{
+    color:  black;
 }
