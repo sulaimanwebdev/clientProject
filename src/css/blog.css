@@ -339,7 +339,7 @@ font-weight: 600;
 
 .blogGridP{
     margin-top: 100px;
-    margin-bottom: 40px;
+    margin-bottom: 130px;
 }
 
 
@@ -487,23 +487,3 @@ font-weight: 600;
 
 
 
-
-
-
-
-
-
-
-.footerP{
-    background-color: rgb(34, 33, 33);
-    color: white !important;
-  margin-bottom: -30px;
-  padding-bottom: 20px;
-  padding-top: 60px;
-}
-
-
-
-.footerP form i{
-    color:  black;
-}

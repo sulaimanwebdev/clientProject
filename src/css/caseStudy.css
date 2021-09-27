@@ -1,0 +1,718 @@
+.homeC{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.hometxt h1{
+    margin-bottom: 5px;
+    font-size: 50px;
+    font-weight: 800;
+
+}
+
+
+.hometxt p{
+    font-size: 22px;
+    max-width: 450px;
+    margin-bottom: 20px;
+}
+
+
+.hometxt a img{
+   width: 70px;
+}
+
+
+
+.shareOnSoci{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+
+
+.shareOnSoci a{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid silver;
+    border-radius: 50%;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+
+
+.shareOnSoci a:hover {
+    border: 1px solid #29a6b9;
+    background-color: #29a6b9;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.firstFlexC{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 100px;
+}
+
+.flex1{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.flex1 img{
+    width: 300px;
+margin: 0 auto;
+
+}
+
+
+
+.flex1 h1{
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin-bottom: 30px;
+    
+}
+
+
+
+.flex1:first-child{
+    margin-top: 60px;
+}
+
+
+.flex1 p{
+    font-size: 19px;
+}
+
+
+
+
+.hrDiv hr{
+    height: 1px;
+    margin: 0 auto;
+    background-color: silver;
+    margin-top: 60px;
+  max-width: 1570px;
+  width: calc(100% - 80px);
+  padding: 0;
+  opacity: 0.5;
+
+    margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.profileTxt{
+    position: relative;
+    max-width: 900px;
+    padding-bottom: 100px;
+    height: auto;
+padding-left: 120px;
+padding-top: 40px;
+padding-right: 70px;
+
+}
+
+
+.ffdf{
+    width: 100% ;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+    object-position: bottom;
+}
+
+
+
+
+
+.profileC{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+
+.profileImgCont img{
+    transform: translateX(120px);
+    margin-bottom: 30px;
+}
+
+
+
+
+.innerFlex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+
+
+
+
+.sec1 h1{
+    color: #3bb3c5;
+    font-weight: 700;
+    font-size: 26px;
+    margin-bottom: 0;
+}
+
+
+
+.mainP{
+    font-size: 17px;
+    opacity: 0.9;
+    margin-bottom: 30px;
+}
+
+
+
+.sec1 h2{
+    color: #3bb3c5;
+    font-weight: 600;
+    font-size: 19px;
+    margin-bottom: 3px;
+}
+
+
+
+.rightBorder{
+    border-left: 3px solid #91dfeb;
+padding-left: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.circTitle{
+    text-align: center;
+    
+    margin: 0 ato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 40px;
+    margin-top: 130px;
+
+}
+
+.circTitle h1{
+    font-size: 40px;
+    font-weight: 800;
+    opacity: 0.9;
+    max-width: 800px;
+
+    
+}
+
+.circTitle p{
+    font-size: 20px;
+    font-weight: 500;
+    opacity: 0.8;
+    max-width: 800px;
+
+}
+
+
+
+
+@media (max-width:462px){
+.circTitle h1{
+    font-size: 30px;
+    font-weight: 800;
+    opacity: 0.9;
+    max-width: 800px;
+
+    
+}
+
+
+.circTitle p{
+    font-size: 13px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+.bigFlex{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    justify-content: center;
+}
+
+.bigTxt{
+    max-width: 600px;
+}
+
+
+
+.bigTxt h1{
+    font-size: 37px;
+    color: #178a9c;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+
+
+
+.bigTxt p{
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.pulseP{
+    margin-top: 60px;
+    margin-bottom: 60px;
+
+}
+
+.pulse1{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    border-bottom: 2px solid #46bcce34;
+    padding-bottom: 15px;
+
+}
+
+
+
+
+.pulseC{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 60px;
+    max-width: 1000px;
+
+}
+
+
+.pulseImg img{
+    width: 70px;
+    margin-top: 7px;
+}
+
+
+.pulseTxt h3{
+    font-size: 26px;
+    font-weight: 700;
+    color: #178a9c;
+    margin-bottom: 10px;
+}
+
+
+.pulseTxt p{
+    font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* cirular part */
+.caseStudyCont .circularPartP{
+    margin-top: 80px;
+    margin-bottom: 80px;
+    background-color: #248594;
+    padding-top:80px;
+    padding-bottom: 120px;
+
+
+}
+.caseStudyCont .circTitle{
+    text-align: center;
+  
+    margin: 0 ato;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 0;
+    padding-top: 0;
+
+}
+
+.caseStudyCont .circTitle h1{
+    font-size: 40px;
+    font-weight: 800;
+    color: white;
+    max-width: 800px;
+    opacity: 1;
+
+    
+}
+
+.caseStudyCont .circTitle p{
+    font-size: 20px;
+    opacity: 1;
+
+    color: white;
+
+    font-weight: 500;
+    
+    max-width: 800px;
+
+}
+
+
+
+
+
+
+.caseStudyCont .circularImage{
+    width: 550px;
+    height: 550px;
+    border-radius: 50%;
+    border-left: 5px solid white;
+    border-style: dashed;
+}
+
+.caseStudyCont .circularImage img{
+  padding-left: 70px;
+  margin-top: 120px;
+  max-width: 600px;
+}
+
+
+.caseStudyCont .circT1{
+    display: flex;
+    align-items: center;
+    justify-content:flex-end;
+    max-width: 450px;
+    flex-direction: row-reverse;
+
+}
+
+
+
+
+
+.caseStudyCont .iii h1{
+    font-size: 23px;
+    font-weight: 700;
+    line-height: 1.2;
+    margin-bottom: 15px;
+}
+
+
+.caseStudyCont .iii a{
+    text-decoration: none;
+    color: #248594;
+    font-weight: 900;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 10px;
+}
+
+
+.caseStudyCont .iconCirc{
+    min-width: 100px;
+    min-height: 100px;
+    border-radius: 50%;
+    background-color: #3bb3c5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.caseStudyCont .realCircularFlex{
+display: flex;
+align-items: center;
+margin-top: 80px;
+flex-direction: row-reverse;
+justify-content: center;
+color: white;
+    
+}
+
+.caseStudyCont .circularText{
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+    max-width: 600px;
+}
+
+
+
+.caseStudyCont .iconCirc1{
+    transform: translateX(150px);
+    background-color: white;
+    
+}
+
+
+.caseStudyCont .iii1{
+    transform: translateX(100px);
+    
+}
+
+
+
+
+
+
+
+
+.caseStudyCont .iconCirc2{
+    transform: translateX(50px);
+    
+    background-color: white;
+
+}
+
+
+.caseStudyCont .iii2{
+    transform: translateX(20px);
+    
+}
+
+
+
+
+.caseStudyCont .iconCirc3{
+    transform: translateX(150px);
+    background-color: white;
+    
+    
+}
+
+
+.caseStudyCont .iii3{
+    transform: translateX(100px);
+    
+}
+
+
+
+
+.caseStudyCont .iii{
+    text-align: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width:1012px){
+
+
+    .caseStudyCont .circularImage{
+        width: 450px;
+        height: 450px;
+        border-radius: 50%;
+        border-right: 5px solid #248594;
+    }
+    
+    .caseStudyCont .circularImage img{
+      padding-right: 70px;
+      margin-top: 70px;
+      max-width: 500px;
+    }
+    
+    }
+    
+    
+    
+    @media (max-width:966px){
+        .caseStudyCont .circularImage{
+            display: none;
+        }
+    
+.caseStudyCont .iii{
+    text-align: center;
+}
+
+
+
+    
+    
+    
+        .caseStudyCont .iconCirc1{
+        transform: translateX(0);
+    }
+    
+    
+    .caseStudyCont .iii1{
+        transform: translateX(0);
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    .caseStudyCont .iconCirc2{
+        transform: translateX(0);
+        background-color: #248594;
+    }
+    
+    
+    .caseStudyCont .iii2{
+        transform: translateX(0);
+    }
+    
+    
+    
+    
+    .caseStudyCont .iconCirc3{
+        transform: translateX(0);
+    }
+    
+    
+    .caseStudyCont .iii3{
+        transform: translateX(0);
+    }
+    
+    
+    
+    .caseStudyCont  .realCircularFlex{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 50px;
+    }
+    
+    .caseStudyCont  .circT1{
+        gap: 40px;
+        flex-direction: column;
+        text-align: center;
+        margin: 0 auto;
+        max-width: 100%;
+        min-width: 100%;
+    }
+    
+
+    
+    .caseStudyCont .circularText{
+        max-width: 100%;
+        margin: 0 auto;
+        min-width: 100%;
+    }
+    }
+    
+    
+    
+    
+   
