@@ -14,6 +14,11 @@ const Header = () => {
       setopen('');
   
     }
+
+    function linkClicked(){
+      setopen('');
+
+    }
     return (
         <>
             <div className="header">
@@ -22,11 +27,11 @@ const Header = () => {
                <nav className={open}>
                     <div className="top"><img src="/images/callIcon.png" alt="" /> <span>Call: +1-866-577-6310</span></div>
                 <div className="navLinks">
-                    <Link to="/">HOME</Link>
-                    <Link to="/blog">BLOG</Link>
-                    <Link to="/services">SERVICES</Link>
-                    <Link to="/case-study">CASE STUDY</Link>
-                    <Link to="/contact">CONTACT</Link>
+                    <Link to="/" onClick={linkClicked}>HOME</Link>
+                    <Link to="/blog" onClick={linkClicked}>BLOG</Link>
+                    <Link to="/services" onClick={linkClicked}>SERVICES</Link>
+                    <Link to="/case-study" onClick={linkClicked}>CASE STUDY</Link>
+                    <Link to="/contact" onClick={linkClicked}>CONTACT</Link>
                 </div>
                 <div className="close" onClick={closeit}>
                 <i class="far fa-times"></i>

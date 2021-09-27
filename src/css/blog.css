@@ -487,3 +487,12 @@ font-weight: 600;
 
 
 
+
+@media (max-width:625px){
+
+.articleC{
+    padding: 40px 30px;
+  
+}
+
+}

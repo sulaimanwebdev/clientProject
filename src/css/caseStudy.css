@@ -1095,3 +1095,198 @@ padding-right: 20px;
     margin: 0 auto;
 }
 }
+
+
+
+
+
+
+@media (max-width:784px){
+
+
+.pulseC{
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 60px;
+
+}
+
+
+.pulseImg img{
+    max-width: 40px;
+   width: auto;
+}
+}
+
+
+
+@media (max-width:1137px){
+
+
+    .lllastFlexC{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 60px;
+    }
+
+
+    .lllastFlexImg img{
+        max-width: 300px;
+    }
+}
+
+
+
+@media (max-width:867px){
+
+    .lllastFlexC{
+        display: flex;
+        align-items: flex-start;
+        justify-content: flex-start;
+        flex-direction: column;
+        gap: 40px;
+    }
+
+
+    .lllastFlexTxt{
+        min-width: 100%;
+    }
+
+    .lllastFlexImg{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+
+    .lllastFlexImg img{
+        max-width: 400px;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+@media (max-width:503px){
+    .lllastFlexImg img{
+        max-width: 100%;
+        min-width: 100%;
+
+    }
+
+}
+
+
+
+
+@media (max-width:607px){
+
+.formFlexa{
+    display: grid;
+    grid-template-columns:  1fr;
+    gap: 0;
+
+}
+
+
+
+
+.downloadCaseStudyC form input{
+    margin-bottom: 40px;
+}
+
+
+
+
+.downloadCaseStudyC form textarea{
+    margin-bottom: 20px;
+}
+
+
+
+
+
+
+}
+
+
+
+
+
+@media (max-width:501px){
+  
+.formNameD h3{
+    font-size: 30px;
+    font-weight: 800;
+}
+
+
+
+}
+
+
+
+
+
+
+
+@media (max-width:347px){
+  
+    .formNameD h3{
+        font-size: 25px;
+        margin-bottom: 10px;
+        font-weight: 800;
+    }
+    
+
+    .formNameD p{
+    font-size: 15px;
+    }
+    
+    
+    
+    }
+
+
+
+
+    @media (max-width:381px){
+
+
+.actualForm button{
+    padding: 15px 0px;
+    border-radius: 7px;
+    background-color: #f7a919;
+    color: white;
+    font-weight: 700;
+    text-align: center;
+    font-size: 17px;
+    transform: translateY(55px);
+    width: 100%;
+    transition: 0.3s;
+}
+
+    }
+
+
+
+
+
+
+
+    @media (max-width:333px){
+
+
+        .actualForm button{
+            font-size: 14px;
+        }
+        
+            }
