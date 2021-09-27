@@ -74,7 +74,7 @@ const CaseStudy = () => {
                         <div className="innerFlex">
                                <div className="sec1"><h1>Linda Gong</h1>  <p>Acquastion Marketing Manger</p></div>
                         <div className="sec1 rightBorder"><h2>Industry</h2> <p>Computer Software</p></div>
-                        <div className="sec1 rightBorder"><h2>Website</h2> <p>www.contentfil.com</p></div>
+                        <div className="sec1 rightBorder wwwwwwwwf"><h2>Website</h2> <p>www.contentfil.com</p></div>
 
                         </div>
 
@@ -203,8 +203,8 @@ const CaseStudy = () => {
             <div className="parent circularPartP">
     <div className="child circularPartC">
             <div className="circTitle">
-                <h1>Services for your CMS Needs</h1>
-                <p>Whether you need a litle help or a team that can outsource your entire DCX program., to we'ev got you covered with everything from strategy to implementation and training.</p>
+                <h1>Konabos Solutions</h1>
+                <p>Since migration of the first brand, Mesa Collection, we were able to early on yeild impressive results with 91% reduction in infrastructure development costs, and we increased speed and perfomance</p>
             </div>
 
 
@@ -219,8 +219,8 @@ const CaseStudy = () => {
         <div className="circT1">
         <div className="iconCirc iconCirc1"><img src="/images/caseStudy/icon1.png" alt="" /></div>
        <div className="iii iii1">
-       <h1>Sitecore Implementation & Optimization Services</h1>
-        <p>Work with our Sitecore specialist to activate solutions leveraging the power for Sitecore’s entire family</p>
+       <h1>Future</h1>
+        <p>Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat pariatur.</p>
        </div>
         </div>
 
@@ -233,8 +233,9 @@ const CaseStudy = () => {
         <div className="circT1">
         <div className="iconCirc iconCirc2"><img src="/images/caseStudy/icon2.png" alt="" /></div>
        <div className="iii iii2">
-       <h1>Composable DXP Design And Implementation Services</h1>
-        <p>Konabos leads the way, helping customers design and implement best-of-breed Composable Jamstack</p>
+       <h1>Friendly</h1>
+       <p>Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat pariatur.</p>
+        
        </div>
         </div>
 
@@ -249,8 +250,9 @@ const CaseStudy = () => {
         <div className="circT1">
         <div className="iconCirc iconCirc3"><img src="/images/caseStudy/icon3.png" alt="" /></div>
        <div className="iii iii3">
-       <h1>Sitecore Implementation & Optimization Services</h1>
-        <p>Work with our Sitecore specialist to activate solutions leveraging the power for Sitecore’s entire family</p>
+       <h1>Content</h1>
+       <p>Duis aute irure dolor in reprehenderit in velit esse cillum dolore eu fugiat pariatur.</p>
+        
        </div>
         </div>
 
@@ -265,22 +267,6 @@ const CaseStudy = () => {
     </div>
 </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 </div>
 
 
@@ -290,6 +276,74 @@ const CaseStudy = () => {
 
 
 
+
+
+<div className="parent lllastFlexP">
+    <div className="child lllastFlexC">
+             <div className="lllastFlexTxt">
+                  <p>As we move forward with this strategy, we expect to see additional benefits. As content migration to Contentful increases, there will undoubtedly be a significant improvement in content manager productivity, which will be a step towards greater content agility. <br /><br /> Whether your organization is restructuring due to new strategies or through acquisitions, or you’re working on outdated custom web applications and in need of optimizing performance using an agile, modern tech stack, the dedicated team at Konabos can provide you with guidance based on your needs.  </p>
+             </div>
+               
+
+               <div className="lllastFlexImg">
+                   <img src="/images/caseStudy/lastFlex.svg" alt="" />
+               </div>
+
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+
+<div className="parent downloadCaseStudyP">
+    <div className="child downloadCaseStudyC">
+
+
+            <form>
+
+                <div className="formNameD">
+                    <h3>Download This Case Study</h3>
+                    <p>To download this case study complete the given fields below</p>
+                </div>
+                    
+
+                    <div className="actualForm">
+                        <div className="formFlexa">
+                        <input type="text" required name="Name" placeholder="Your Name"/>
+                        <input type="email" required name="email" placeholder="Your Email Address"/>
+                        </div>
+
+
+                        <div className="formFlexa">
+                        <input type="number" required name="Phone Number" placeholder="Phone Number"/>
+                        <input type="email" required name="Company/Organization" placeholder="Company/Organization"/>
+                        </div>
+
+
+                        <div className="formFlexb">
+                            <textarea name="Message" required placeholder="Your Message..."></textarea>
+                        </div>
+
+                              <div className="subBtnCont">
+                        <button type="submit">DOWNLOAD CASE STUDY</button>
+
+                              </div>
+
+                    </div>
+
+
+
+            </form>
+
+
+    </div>
+</div>
 
 
 
