@@ -9,8 +9,15 @@
   font-family: 'Assistant', sans-serif;
 }
 
+
+html{
+  overflow-x: hidden;
+
+}
+
 body{
   overflow-x: hidden;
+  
 }
 
 .parent{
