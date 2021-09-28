@@ -1,5 +1,6 @@
 import React from 'react'
 import '../css/services.css'
+import {Link} from 'react-router-dom';
 const Services = () => {
     return (
         <>
@@ -186,35 +187,89 @@ everything from SEO, Content Writing, training, and more.</p>
 </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             </div>
 
+    </div>
+</div>
 
 
+
+
+
+
+
+
+
+
+
+<div className="parent coloredBgP">
+    <div className="child coloredBgC">
+           <div className="colorBgText">
+               <h1>Contact us about Digital Experience Strategy And Management</h1>
+               <p>Your email address will not be published. We promise not to spam!</p>
+               <Link to="/contact">CONTACT US</Link>
+           </div>
+
+           <div className="colorBgImg">
+               <img src="/images/servicesImages/whiteHorse.png" alt=""/>
+           </div>
+    </div>
+    <img src="/images/servicesImages/coloredBg.png" alt="" className="bgColored"/>
+    <img src="/images/servicesImages/particle1.png" className="particle" alt="" />
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+<div className="parent contentP">
+    <div className="child contentC">
+    <div className="circTitle">
+                <h1>Related Content</h1>
+            </div>
+
+               <div className="contentGrid">
+                   <div className="contentGrid1">
+                       <img src="/images/servicesImages/content1.png" alt="" />
+                       <h1>Sitecore Boxever - Customer Data Platform</h1>
+                   </div>
+
+
+                   <div className="contentGrid1">
+                       <img src="/images/servicesImages/content2.png" alt="" />
+                       <h1>How 2021 Will be Different Than 2020 for Your Content Strategy </h1>
+                   </div>
+
+
+                   <div className="contentGrid1">
+                       <img src="/images/servicesImages/content3.png" alt="" />
+                       <h1>Sitecore Personalized Experiences | A Win-Win for Customers and Brands</h1>
+                   </div>
+
+
+
+
+                   <div className="contentGrid1">
+                       <img src="/images/servicesImages/content4.png" alt="" />
+                       <h1>Personalize on the Sitecore Experience Edge for Content Hub using Uniform</h1>
+                   </div>
+
+
+
+               </div>
 
 
     </div>
 </div>
+
+
 
 
 
