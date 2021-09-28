@@ -48,6 +48,8 @@ everything from SEO, Content Writing, training, and more.</p>
 
 
 <div className="parent flex3P">
+<div className="darkBg"></div>
+
     <div className="child flex3C">
 <div className="flex3Text">
     <h1>Our Approach </h1>
@@ -264,6 +266,9 @@ everything from SEO, Content Writing, training, and more.</p>
 
 
                </div>
+
+
+               <div className="viewMore"><a href="#">VIEW MORE</a></div>
 
 
     </div>
