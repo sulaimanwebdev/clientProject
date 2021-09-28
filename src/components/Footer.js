@@ -106,7 +106,14 @@ const Footer = () => {
 
 
 
+<div className="lastFo">
+    <p>© 2021 Konabos Consulting Inc. All Rights Reserved. </p>
+    <div>
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms & Conditions</a>
 
+    </div>
+</div>
 
 
            </div>

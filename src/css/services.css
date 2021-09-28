@@ -605,6 +605,9 @@ width: 400px;
       z-index: 2;
   }
 
+  
+
+
 
   .flex3C{
       z-index: 30;
@@ -884,4 +887,32 @@ max-width: 100%;
     .contentGrid1 img{
         width: 100%;
     }
+    }
+
+
+
+
+
+    @media (max-width:673px){
+        .bgImage{
+            display: none;
+        }
+
+.darkBg{
+
+    background-color: rgb(245, 245, 245);
+
+}
+
+
+.flex3C{
+    z-index: 30;
+    color: black;
+}
+
+.iconIflex img{
+  filter: initial
+}
+
+
     }
