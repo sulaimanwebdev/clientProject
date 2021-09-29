@@ -61,14 +61,6 @@
 
 
 
-
-
-
-
-
-
-
-
 .firstFlexC{
     display: grid;
     grid-template-columns: 1fr 1fr;
@@ -129,6 +121,9 @@ margin: 0 auto;
 
 
 
+.pulseImg img{
+    max-width: 30px;
+}
 
 
 
@@ -835,6 +830,12 @@ padding-bottom: 10px;
 transition: 0.3s;
 font-weight: 600;
 outline: none !important;
+font-size: 16px;
+border-top:none;
+border-left:none;
+border-right:none;
+
+
 }
 
 
@@ -856,11 +857,15 @@ border-bottom: 2px solid #31b6ca;
 
 .formFlexb textarea{
 font-weight: 600;
-
+border-top:none;
+border-left:none;
+border-right:none;
 border-bottom: 2px solid silver;
 padding-bottom: 10px;
 transition: 0.3s;
 width: 100%;
+font-size: 16px;
+resize: vertical;
 outline: none !important;
 max-height: 200px;
 min-height: 100px;
@@ -875,12 +880,14 @@ border-bottom: 2px solid #31b6ca;
 
 
 .actualForm button{
+    cursor: pointer;
     padding: 15px 30px;
     border-radius: 7px;
     background-color: #f7a919;
     color: white;
     font-weight: 700;
     text-align: center;
+    border: none;
     font-size: 17px;
     transform: translateY(55px);
     transition: 0.3s;
@@ -1290,3 +1297,28 @@ padding-right: 20px;
         }
         
             }
+
+
+
+
+
+
+
+
+
+@media (max-width:654px){
+    .homeimg img{
+        width:100%;
+    }
+
+    .flex1 img{
+        width:100%;
+    }
+    .bigImage img{
+        width:100%;
+    }
+}
+
+
+
+

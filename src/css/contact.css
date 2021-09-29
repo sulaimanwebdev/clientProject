@@ -277,6 +277,8 @@ border: 1px solid black;
     font-size: 18px;
     font-weight: bold;
     margin-top: 20px;
+    cursor:pointer;
+    border:none;
     transition: 0.3s;
 }
 
@@ -423,6 +425,14 @@ border: 1px solid black;
         align-items: center;
         justify-content: center;
     }
+.formImg img{
+    min-width:100% !important;
+}
+
+
+.contactImg img{
+    width:100%;
+}
 }
 
 

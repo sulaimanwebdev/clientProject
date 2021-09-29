@@ -26,6 +26,7 @@
     margin-top: 1px;
     margin-bottom: 1px;
     outline: none !important;
+    border:none;
 
 }
 
@@ -38,6 +39,7 @@
     padding: 0 25px;
     border-top-right-radius: 10px;
     border-bottom-right-radius: 10px;
+    border:none
 
 
 }
